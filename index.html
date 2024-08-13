@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="fr.css">
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div id="sectionMain">
+            <div class="bg-container">
+                <div class="d-flex flex-row">
+                    <img src="https://res.cloudinary.com/dtm26pmec/image/upload/v1723516442/childhood_wall_n8e9cr.jpg" class="image"/>
+                    <h1 class="child">Childhood</h1>
+                </div>
+                <div class="bg-part">
+                    <p class="bg-para">Do you want to know about them...?</p>
+                    <button class="bg-button" onclick="display('sectiondetailedView')">Get started</button>
+                </div>
+            </div>
+        </div>
+        <div id="sectiondetailedView">
+            <div class="t-cont">
+                <div class="all-cards">
+                    <h1>View Them</h1>
+                    <div class="card-one d-flex flex-row" onclick="display('sectionChintu')">
+                        <img src="https://res.cloudinary.com/dtm26pmec/image/upload/v1723522450/chin2_nbnbdp.jpg" class="s-img"/>
+                        <div>
+                            <h1 class="card-head">Chaitanya Kommineni</h1>
+                            <p class="card-para">Jan 18th</p>
+                        </div>
+                    </div>
+                    <div class="card-one d-flex flex-row">
+                        <img src="https://res.cloudinary.com/dtm26pmec/image/upload/v1723523485/kish_vqqqgq.jpg" class="s-img"/>
+                        <div>
+                            <h1 class="card-head">Kishor Dornala</h1>
+                            <p class="card-para">Jan 8th</p>
+                        </div>
+                    </div>
+                    <div class="card-one d-flex flex-row">
+                        <img src="https://res.cloudinary.com/dtm26pmec/image/upload/v1723523518/venky_bucdtg.jpg" class="s-img"/>
+                        <div>
+                            <h1 class="card-head">Naveen Kommu</h1>
+                            <p class="card-para">Feb 16th</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class ="sec-bg"  id="sectionChintu">
+            <h1 class="sec-head">Detailed View</h1>
+            <div class="cr-one">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/dtm26pmec/image/upload/v1723522450/chin2_nbnbdp.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/dtm26pmec/image/upload/v1723524069/chin21_knbtol.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/dtm26pmec/image/upload/v1723524079/chin22_lusgvx.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="cr-cont">
+                    <h1 class="cr-head">Chaitanya Kommineni</h1>
+                    <p class="cr-para">Chaitanya Kommineni born in Kommineni Family. He went to Laurel high school to complete his schooling.</p>
+                </div>
+            </div>
+            <button class="bg-button"onclick="display('sectiondetailedView')">Back</button>
+
+        </div>
+        <script
+            type="text/javascript"
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+        ></script>
+    </body>
+</html>
